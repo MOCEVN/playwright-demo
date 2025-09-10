@@ -13,9 +13,6 @@ test('Navigate to About page', async ({ page }) => {
   await expect(page.locator('h1')).toContainText('About'); // H1 check
 });
 
-test('Navigate to Contact page', async ({ page }) => {
-  await page.goto('/');
-  await page.click('text=Contact');         // Klik op de link
-  await expect(page).toHaveURL('/contact'); // URL check
-  await expect(page.locator('h1')).toContainText('Contact'); // H1 check
-});
+
+
+

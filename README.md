@@ -130,7 +130,7 @@ test('homepage has title and links to about page', async ({ page }) => {
 `expect(...).toHaveAttribute(...)` -> checks if the link correctly directs to `/about`
 `expect(page).toHaveURL(...)` -> checks if you're on the about page
 
-**Terminal test:  
+**Terminal test:** 
 
 ```bash
 # Run all browsers
