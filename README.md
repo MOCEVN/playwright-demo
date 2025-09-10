@@ -1,9 +1,9 @@
 # Playwright Demo
 
-Dit is een minimalistisch Next.js project met Playwright-testen.
-Het laat zien hoe je een eenvoudige Next.js App Router structuur kunt testen met Playwright.
+This is a minimalist Next.js project with Playwright testing.
+It demonstrates how to test a simple Next.js App Router structure with Playwright.
 
-## Project structuur
+## Project structure
 
 ```
 src/
@@ -16,33 +16,33 @@ tests/
 playwright.config.ts → Playwright configuratie
 ```
 
-## Vereisten
+## Requirements
 
 * Node.js 18+
 * NPM
 
-## Installatie
+## Installations
 
-1. Clone deze repository:
+1. Clone this repository:
 
 ```bash
 git clone https://github.com/MOCEVN/playwright-demo.git
 cd playwright-demo
 ```
 
-2. Installeer dependencies:
+1. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Installeer Playwright browsers:
+1. Install Playwright browsers:
 
 ```bash
 npx playwright install
 ```
 
-## Project draaien
+## Run project
 
 Start de Next
 
