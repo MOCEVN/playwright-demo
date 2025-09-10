@@ -110,14 +110,14 @@ import { test, expect } from @playwright/test';
 test('homepage has title and links to about page', async ({ page }) => {
   await page.goto('http://localhost:3000');
 
-  // Check dat de titel klopt
+  // Check if the title is correct
   await expect(page).toHaveTitle(/Next.js/);
 
-  // Check dat de link naar About pagina bestaat
+  // Check if the link to About page exists
  const aboutLink = page.locator('text=About');
   await expect(aboutLink).toHaveAttribute('href', '/about');
 
-  // Klik op de link en check de URL
+  // Click the link and check te URL
   await aboutLink.click();
   await expect(page).toHaveURL(/\/about/);
 });
