@@ -42,9 +42,8 @@ npm install
 npx playwright install
 ```
 
-## Run project
+Run project
 
-Start de Next
 
 ## Playwright finds
 
@@ -97,13 +96,6 @@ Most testtools only work with Chromium/Chrome and Playwright goes further.
 
 **4. Fast parallel runs**
 - You can run in the same suite all three engines, what helps with CI/CD
-
-**Playwright loginflow:**
-`npx playwright test --browser=chromium
-`npx playwright test --browser=firefox
-`npx playwright test --browser=webkit
-
-Or all at the same time with a config
 
 Playwright talk directly to these engines: Chronium, WebKit and Gecko. That's how you can run the same test in all three engines -> and then you're sure that your app works in Chrome, Safari and Firefox
 
