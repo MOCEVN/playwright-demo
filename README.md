@@ -12,8 +12,8 @@ src/
     about/page.tsx   → About (/about)
     contact/page.tsx → Contact (/contact)
 tests/
-  app.spec.ts        → Playwright navigatie- en contenttests
-playwright.config.ts → Playwright configuratie
+  app.spec.ts        → Playwright navigation and contenttests
+playwright.config.ts → Playwright configuration
 ```
 
 ## Requirements
